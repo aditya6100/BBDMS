@@ -67,5 +67,5 @@ Don't forget to give the project a star! ⭐
 Distributed under the MIT License. See `LICENSE` for more information. (Assuming an MIT License; create a LICENSE file if none exists).
 
 ## 📞 Contact
-Aditya Bhanudas Patil - [aditya.patil.dev@example.com](mailto:aditya.patil.dev@example.com) (Please replace with your actual email/LinkedIn)
+Aditya Bhanudas Patil - [adityabhanudas610@gmail.com](mailto:adityabhanudas610@gmail.com) (Please replace with your actual email/LinkedIn)
 Project Link: [https://github.com/aditya6100/BBDMS](https://github.com/aditya6100/BBDMS)
