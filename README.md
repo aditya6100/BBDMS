@@ -23,9 +23,7 @@ BBDMS (Blood Bank Donor Management System) is a web-based application developed 
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
--   Web server (Apache, Nginx, or similar)
--   PHP (7.x or higher recommended)
--   MySQL database
+-   XAMPP or WAMP server (includes Apache, MySQL, PHP)
 -   Git
 
 ### Setup
@@ -37,18 +35,21 @@ To get a local copy up and running, follow these simple steps.
    ```bash
    cd BBDMS
    ```
-3. Import the database
-   *   Create a MySQL database (e.g., `bbdms_db`).
-   *   Import the provided SQL dump (if available, usually named `bbdms.sql` or similar) into your database.
-4. Configure database connection
-   *   Locate the database connection file (e.g., `config.php`, `db_connect.php`, or similar) and update with your MySQL database credentials (hostname, username, password, database name).
-5. Place project on your web server
-   *   Move the project files to your web server's document root (e.g., `htdocs` for Apache).
+3. Copy project files to your web server's document root
+   *   Move the contents of the cloned repository into your XAMPP's `htdocs` folder or WAMP's `www` folder (e.g., `C:\xampp\htdocs\bbdms`).
+4. Import the database
+   *   Start Apache and MySQL from your XAMPP/WAMP control panel.
+   *   Open phpMyAdmin (usually via `http://localhost/phpmyadmin`).
+   *   Create a new database (e.g., `bbdms_db`).
+   *   Import the provided SQL dump (if available, usually named `bbdms.sql` or similar) into your newly created database.
+5. Configure database connection
+   *   Locate the database connection file in your project (e.g., `config.php`, `db_connect.php`, or similar) and update with your MySQL database credentials (hostname, username, password, database name `bbdms_db`).
 
 ## 🚀 Usage
-1.  Open your web browser and navigate to the project's URL (e.g., `http://localhost/BBDMS`).
-2.  Register as a donor or log in to access the system's features.
-3.  Utilize the search functionality to find blood or manage donor/recipient requests.
+1.  Ensure Apache and MySQL are running in your XAMPP/WAMP control panel.
+2.  Open your web browser and navigate to the project's URL (e.g., `http://localhost/bbdms`).
+3.  Register as a donor or log in to access the system's features.
+4.  Utilize the search functionality to find blood or manage donor/recipient requests.
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
